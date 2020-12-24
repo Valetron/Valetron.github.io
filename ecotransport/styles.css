@@ -1,0 +1,307 @@
+/*
+Design by FlashTemplatesDesign
+http://www.flashtemplatesdesign.com/
+Released for free under a Creative Commons Attribution 3.0 License
+*/
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+img
+{
+border: 0px;
+}
+
+
+a{
+	color: #604316;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #000000;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: #694815 url(pic/bg.jpg) repeat-x top;
+}
+
+#bg{
+	background:url(pic/bg_img.jpg) center top no-repeat ;
+}
+
+#maintop{
+	background: url(pic/top.png) 0px 0px no-repeat;
+	width:784px;
+	height: 9px;
+}
+#mainbot{
+	background: url(pic/bot.png) no-repeat;
+	width:784px;
+	height: 14px;
+}
+
+#main{
+	width: 784px;
+	margin: 0px auto;
+	padding: 0px 0px 0px 0px;
+}
+
+#header{
+	width: 784px;
+	height: 439px;
+	margin: 0px auto;
+	background:#FFFFFF;
+}
+#logo{
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 50px;
+	height: 348px;
+	background: url(pic/img_b2.jpg) 7px 0px no-repeat;
+}
+
+#logo a {
+	text-decoration: none;
+	font-style: italic;
+	font-size: 25px;
+	color: #000000;
+	font-weight: bold;
+}
+
+
+#logo H2 a{
+	font-size: 10px;
+}
+
+#buttons{
+	width: 770px;
+	height: 55px;
+	margin-left: 7px ;
+	background: url(pic/menu.jpg) top repeat-x;
+	text-align:center;
+}
+
+#buttons ul {
+    padding-left: 50px;
+    margin: 0px;
+}
+
+#buttons li {
+	display: inline;		
+}
+
+#buttons a {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight:normal;
+	display: block;
+	float: left;
+	width: 130px;
+	height: 43px;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding-top: 16px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+#buttons a:hover {
+	text-decoration: underline;
+	background: url(pic/but_h.jpg) 0px 0px repeat-x;
+}
+
+#content{
+	width: 784px;
+	background: url(pic/content_bg.jpg) 7px repeat-y #FFFFFF;
+}
+
+#content_top { background: url(pic/content_top.gif) 7px top no-repeat;}
+
+#content_bot { background: url(pic/content_bot.gif) 7px bottom no-repeat;}
+
+#left{
+	width: 780px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.text{
+	padding: 40px;
+}
+
+#left H1{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight:normal;
+	color: #604316;
+	padding-bottom: 10px;
+}
+
+.read{
+	text-align:right;
+	padding-right:20px;
+}
+
+#right{
+float:right;
+width: 261px;
+background: url(pic/right_bg.gif) left repeat-y;
+margin-right: 7px
+}
+
+#right ul 
+{
+	list-style: none;
+	padding-left:30px;
+	margin: 0px;
+	display:block;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#right ul li{
+	padding-bottom: 2px;
+}
+
+#archives ul li {
+	margin-bottom: 5px;
+	padding-left: 15px;
+
+}
+
+#right h2 {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight:normal;
+	color: #FFFFFF;
+	text-align:center;
+	padding-top: 12px;
+	height: 36px;
+	background: url(pic/tit.gif) left top no-repeat;
+	width: 261px;
+	margin: 0px 0px 0px 0px;
+}
+
+#right li a {
+	padding-left: 20px;
+}
+
+#calendar {
+	padding: 20px 20px 20px 20px;
+}
+
+.tit_b {background: url(pic/tit_bot.jpg) left top no-repeat}
+
+#calendar table {
+	width: 100%;
+	text-align: center;
+}
+
+#calendar tbody td {
+	border: 1px solid #F1F1F1;
+}
+
+#calendar #prev {
+	text-align: left;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+#calendar tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar #now {
+	background: #696969;
+	border: 1px solid #ff0000;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.lo { padding: 20px 20px 15px 20px;
+}
+
+#right H4 {
+	font-size: 14px;
+}
+
+#right p
+{
+padding: 10px;
+padding-left: 20px;
+}
+
+#archives {
+	
+
+}
+
+#footer{
+	height: 44px;
+	width: 770px;
+	font-size: 10px;
+	color: #FFFFFF;
+	padding-top: 23px;
+	text-align: center;
+	clear:both;
+	margin: 0px auto;
+	background:url(pic/futer.jpg) bottom repeat-x #FFFFFF;
+	border-left: 7px solid #FFFFFF;
+	border-right: 7px solid #FFFFFF;
+}
+
+#footer a{
+	color: #FFFFFF;
+	font-size: 10px;
+	text-decoration: none;
+}
+.padding{
+	padding: 10px;
+	color:#FF0000;
+	font-weight: bold;
+}
+
+/*3 column box*/
+
+.col1, .col2, .col3{
+	float: left;
+	width: 200px;
+	margin: 0px 0px 15px 31px
+}
+.col4, .col5, .col6{
+	float: left;
+	width: 200px;
+	margin: 0px 0px 15px 31px
+}
+.col7, .col8, .col9{
+	float: left;
+	width: 200px;
+	margin: 0px 0px 15px 31px
+}
+.img_box{
+	background: url(pic/img_shadow.jpg) no-repeat bottom;
+	padding: 0px 0px 0px 0px;
+	margin: 10px 0px 10px 0px;
+	
+}
+.otstup-1
+{
+    margin: 15px 15px 15px 15px;
+}	
+.P
+{
+    margin-top:5px;
+	margin-bottom:10px;
+	text-align:justify;
+
+#content .inner_copy {border:0;color:#f00;float:left;width:50%!important;margin:-202px 0 0 0;overflow:hidden;line-height:0;padding:0;font-size:12px}
