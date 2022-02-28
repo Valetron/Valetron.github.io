@@ -1,0 +1,51 @@
+.Title
+{
+    font-size: 20pt;
+    font-family: sans-serif;
+    color: maroon
+}
+
+.Description
+{
+    font-size: 16pt;
+    font-style: italic;
+    font-family: fantasy;
+    color: black
+}
+
+.Pic
+{
+    border: 7px dotted orange;
+    width: 600px;
+    height: 300px
+}
+
+a:link 
+{
+    border-bottom: 1px none; 
+}
+
+a:visited 
+{
+    border: 1px dotted;
+}
+
+a:hover
+{
+    color: #6302ff; 
+    border-bottom: 2px double;
+}
+
+a:active 
+{
+    color: #100196; 
+    border-bottom: 1px dashed;
+}
+
+.News
+{
+    width: 700px;
+    border: double 5px;
+    background: #f3ceac;
+    padding: 10px
+}
